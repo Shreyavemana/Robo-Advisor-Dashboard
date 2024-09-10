@@ -8,9 +8,9 @@ Users can get personalized financial insights, track their investment progress, 
 
 *Key Features*
 
-User-Friendly Dashboard: A visually appealing and intuitive interface displaying key financial metrics, portfolio performance, and risk assessments.
-Portfolio Management: View detailed insights into your portfolio, including diversification, asset allocation, and performance over time.
-Risk Assessment: Automated risk profiling based on user preferences and market data, providing tailored investment advice.
-Financial Projections: Simulate potential future growth scenarios based on current assets and investment strategies.
-API Integration: Seamless integration with third-party financial data providers to ensure up-to-date market information.
-Data Visualization: Charts and graphs to visualize financial trends, portfolio health, and historical data comparisons.
+1. User-Friendly Dashboard: A visually appealing and intuitive interface displaying key financial metrics, portfolio performance, and risk assessments.
+2. Portfolio Management: View detailed insights into your portfolio, including diversification, asset allocation, and performance over time.
+3. Risk Assessment: Automated risk profiling based on user preferences and market data, providing tailored investment advice.
+4. Financial Projections: Simulate potential future growth scenarios based on current assets and investment strategies.
+5. API Integration: Seamless integration with third-party financial data providers to ensure up-to-date market information.
+6. Data Visualization: Charts and graphs to visualize financial trends, portfolio health, and historical data comparisons.
