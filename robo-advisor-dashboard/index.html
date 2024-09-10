@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robo Advisor Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <h1>RoboAdvisor</h1>
+    </div>
+    <div class="navbar-links">
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#goals">Goals</a>
+      <a href="#settings">Settings</a>
+      <a href="#logout">Logout</a>
+    </div>
+  </nav>
+
+  <div class="dashboard-container">
+    <div class="sidebar">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#performance">Performance</a></li>
+        <li><a href="#allocation">Allocation</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h2>Dashboard Overview</h2>
+      <p>Welcome to your Robo Advisor dashboard. Here you can track your portfolio performance and monitor investment goals.</p>
+      
+      <div class="portfolio-value">
+        <h3>Total Portfolio Value: $50,000</h3>
+      </div>
+      
+      <div class="performance-graph">
+        <h3>Portfolio Performance</h3>
+        <canvas id="performanceChart"></canvas>
+      </div>
+
+      <!-- Prediction Section -->
+      <div class="prediction-section">
+        <h3>Predict Future Portfolio Value</h3>
+        <label for="monthsInput">Enter months in the future:</label>
+        <input type="number" id="monthsInput" value="12" min="1">
+        <button id="getPrediction">Get Prediction</button>
+        <p id="predictionResult"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
